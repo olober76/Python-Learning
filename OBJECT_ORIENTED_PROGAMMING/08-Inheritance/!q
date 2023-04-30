@@ -1,0 +1,10 @@
+Help on Hero_intelligent in module __main__ object:
+
+class HHeerroo__iinntteelllliiggeenntt(builtins.object)
+ |  Data descriptors defined here:
+ |  
+ |  ____ddiicctt____
+ |      dictionary for instance variables (if defined)
+ |  
+ |  ____wweeaakkrreeff____
+ |      list of weak references to the object (if defined)
