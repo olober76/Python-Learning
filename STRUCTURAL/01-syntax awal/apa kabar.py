@@ -1,0 +1,1 @@
+print("baik kabarnya"),

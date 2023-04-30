@@ -1,0 +1,1 @@
+print("hasi saya jaka")

@@ -1,0 +1,1 @@
+data = "saya propler kupri"
