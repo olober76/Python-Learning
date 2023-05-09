@@ -1,0 +1,33 @@
+Referensi Belajar Motion:
+
+1. Dasar Pixhawk
+https://www.youtube.com/watch?v=_ketmb8u2UI&ab_channel=Painless360
+ini menjelasakan dasar pemasangan pixhawk dan kalibrasi (ini menggunakan mission planner interface nanti buat submarine kita akan menggunakan qgroundcontrol penggunaannya sama dan identik)
+
+2. tutor koneksi dari Nvidia Jetson ke Pixhawk
+https://www.youtube.com/watch?v=nIuoCYauW3s&ab_channel=aka%3AMatchstic
+Hanya nonton pemasangan dari menit 0:00 - 4:52
+
+3. koneksi Pymavlink, arming, takeoff, movement, kecepatan
+https://www.youtube.com/watch?v=kecnaxlUiTY&ab_channel=IntelligentQuads
+https://www.youtube.com/watch?v=6M7e7DDLTQc&list=PLy9nLDKxDN68cwdt5EznyAul6R8mUSNou&index=2&ab_channel=IntelligentQuads
+https://www.youtube.com/watch?v=NTjEcHmqmu4&list=PLy9nLDKxDN68cwdt5EznyAul6R8mUSNou&index=3&ab_channel=IntelligentQuads
+https://www.youtube.com/watch?v=yyt4VjBRG_Y&list=PLy9nLDKxDN68cwdt5EznyAul6R8mUSNou&index=4&t=114s&ab_channel=IntelligentQuads
+https://www.youtube.com/watch?v=nlKEr9J8ZIg&list=PLy9nLDKxDN68cwdt5EznyAul6R8mUSNou&index=5&ab_channel=IntelligentQuads
+
+Buat referensi pymavlink tambahan boleh baca:
+https://www.ardusub.com/developers/pymavlink.html
+
+Parameter list penuh buat pengendalian ardusub-pymavlink baca disini:
+https://www.ardusub.com/developers/full-parameter-list.html
+
+Buat keseluruhan pemasangan elektronik, perangakt keras, data logging, dst bisa baca ini yaa
+https://www.ardusub.com
+
+Tolong teman2 kalau misalnya ada waktu kosongnya atau pun lagi mudik di jalan atau dirumah boleh sambilan nonton dan baca ya!
+
+Kalau misalnya ada pertanyaan boleh langsung PC ke saya! 
+
+
+
+ 
