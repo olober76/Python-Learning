@@ -33,7 +33,7 @@ def on_button_click( button_number ):
 
 
 root = tk.Tk()
-root.configure(bg="#fcba03")
+root.configure(bg="#e57c23")
 root.geometry("1280x720") #Ukuran awal
 root.title("Button Command")
 
@@ -46,7 +46,7 @@ bigFont = tkfont.Font(
 )
 
 # Membuat frame untuk menampung tombol
-frame = tk.Frame(root, bg="#03e8fc")
+frame = tk.Frame(root, bg="#e8aa42")
 frame.pack(pady=5,padx=5, fill="x", expand=True)
 
 # Membuat tombol-tombol
