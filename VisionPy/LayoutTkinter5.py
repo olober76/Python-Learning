@@ -56,19 +56,19 @@ frame.pack(pady=5,padx=5, fill="x", expand=True)
     
 # button shape
 # POKOKNYA DIREKTORI LANGSUNG KE RESOURCENYA
-gambar_files = ["C:/Users/kuhpr/Documents/Python/Python-Learning/VisionPy/resources/tombol 1/active.png", 
-                "C:/Users/kuhpr/Documents/Python/Python-Learning/VisionPy/resources/tombol 1/active2.png", 
-                "C:/Users/kuhpr/Documents/Python/Python-Learning/VisionPy/resources/tombol 1/active3.png", 
-                "C:/Users/kuhpr/Documents/Python/Python-Learning/VisionPy/resources/tombol 1/active4.png", 
-                "C:/Users/kuhpr/Documents/Python/Python-Learning/VisionPy/resources/tombol 1/active5.png", 
-                "C:/Users/kuhpr/Documents/Python/Python-Learning/VisionPy/resources/tombol 1/active6.png"]
+gambar_files = ["../VisionPy/resources/tombol 1/active.png", 
+                "../VisionPy/resources/tombol 1/active2.png", 
+                "../VisionPy/resources/tombol 1/active3.png", 
+                "../VisionPy/resources/tombol 1/active4.png", 
+                "../VisionPy/resources/tombol 1/active5.png", 
+                "../VisionPy/resources/tombol 1/active6.png"]
 
-gambar_files2 = ["C:/Users/kuhpr/Documents/Python/Python-Learning/VisionPy/resources/tombol 1/inactive.png", 
-                "C:/Users/kuhpr/Documents/Python/Python-Learning/VisionPy/resources/tombol 1/inactive2.png", 
-                "C:/Users/kuhpr/Documents/Python/Python-Learning/VisionPy/resources/tombol 1/inactive3.png", 
-                "C:/Users/kuhpr/Documents/Python/Python-Learning/VisionPy/resources/tombol 1/inactive4.png", 
-                "C:/Users/kuhpr/Documents/Python/Python-Learning/VisionPy/resources/tombol 1/inactive5.png", 
-                "C:/Users/kuhpr/Documents/Python/Python-Learning/VisionPy/resources/tombol 1/inactive6.png"]
+gambar_files2 = ["../VisionPy/resources/tombol 1/inactive.png", 
+                "../VisionPy/resources/tombol 1/inactive2.png", 
+                "../VisionPy/resources/tombol 1/inactive3.png", 
+                "../VisionPy/resources/tombol 1/inactive4.png", 
+                "../VisionPy/resources/tombol 1/inactive5.png", 
+                "../VisionPy/resources/tombol 1/inactive6.png"]
 
 
 def on_enter(event):
