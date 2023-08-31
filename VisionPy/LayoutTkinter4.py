@@ -84,9 +84,9 @@ for i in range(2):
                            height=380,
                            bd=0,
                            relief="sunken",
-                        #    activebackground="#e8aa42",
+                        #  activebackground="#e8aa42",
                            command=lambda btn=button_number: on_button_click(btn),
-                           state="normal")
+                           )
         button.grid(row=i, column=j, padx=5, pady=5)
         buttons.append(button)
 

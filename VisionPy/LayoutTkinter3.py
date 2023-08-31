@@ -1,5 +1,6 @@
 import tkinter as tk
 from tkinter.messagebox import showinfo
+from PIL import Image, ImageTk
 import tkinter.font as tkfont
 
 def on_button_click( button_number ):
@@ -44,6 +45,9 @@ bigFont = tkfont.Font(
     underline = 0,
     overstrike = 0
 )
+
+
+# button shape
 
 # Membuat frame untuk menampung tombol
 frame = tk.Frame(root, bg="#e8aa42")

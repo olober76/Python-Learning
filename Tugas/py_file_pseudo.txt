@@ -1,0 +1,131 @@
+IMPORT time
+
+DEFINE FUNCTION is_safe(board, row, col):
+
+    # Memeriksa apakah ratu pada posisi (row, col) aman
+
+    # pada papan catur yang sudah ada
+
+    
+
+    # Memeriksa baris yang sama
+
+    FOR i IN range(col):
+
+        IF board[i] EQUALS row or board[i] - row EQUALS i - col or board[i] - row EQUALS col - i:
+
+            RETURN False
+
+    
+
+    RETURN True
+
+
+
+
+
+DEFINE FUNCTION solve_n_queen(board, col, solutions):
+
+    # Basis rekursif: jika semua ratu telah ditempatkan
+
+    IF col >= len(board):
+
+        solutions.append(board[:])
+
+        RETURN
+
+    
+
+    FOR row IN range(len(board)):
+
+        IF is_safe(board, row, col):
+
+            # Menempatkan ratu pada posisi (row, col)
+
+            SET board[col] TO row
+
+            
+
+            # Memanggil rekursif untuk menempatkan ratu pada kolom berikutnya
+
+            solve_n_queen(board, col + 1, solutions)
+
+
+
+
+
+DEFINE FUNCTION OUTPUT_solution(board):
+
+    # Mencetak solusi papan catur
+
+    FOR row IN board:
+
+        SET line TO ["." FOR _ IN range(len(board))]
+
+        SET line[row] TO "Q"
+
+        OUTPUT(" ".join(line))
+
+    OUTPUT()
+
+
+
+
+
+DEFINE FUNCTION solve_n_queen_problem(n):
+
+    # Membuat papan catur berukuran n x n
+
+    SET board TO [0] * n
+
+    SET solutions TO []
+
+    
+
+    solve_n_queen(board, 0, solutions)
+
+    
+
+    IF solutions:
+
+        FOR solution IN solutions:
+
+            OUTPUT_solution(solution)
+
+    ELSE:
+
+        OUTPUT("Tidak ada solusi yang mungkin.")
+
+
+
+SET N TO int(INPUT("Enter Number of queens: "))
+
+
+
+SET start_time TO time.time()
+
+
+
+SET # Solve N Queen Problem with N TO 8
+
+
+
+solve_n_queen_problem(N)
+
+
+
+
+
+# Calculate the execution time
+
+SET end_time TO time.time()
+
+SET execution_time TO end_time - start_time
+
+
+
+# Print the execution time
+
+OUTPUT("Execution time: {:.5f} seconds".format(execution_time))
+
+SET # Menjalankan fungsi untuk N Queen Problem dengan N TO 8
